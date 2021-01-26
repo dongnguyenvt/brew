@@ -56,7 +56,7 @@ class ThriftAT0110 < Formula
 
     system "./configure", *args
     ENV.deparallelize
-    system "make"
+    system "make", "-j8"
     system "make", "install"
 
     # Even when given a prefix to use it creates /usr/local/lib inside
