@@ -50,7 +50,7 @@ class ThriftAT0100 < Formula
                             "--with-openssl=#{Formula["openssl"].opt_prefix}",
                             *exclusions
       ENV.deparallelize
-      system "make"
+      system "make", "-j8"
       system "make", "install"
     end
   
