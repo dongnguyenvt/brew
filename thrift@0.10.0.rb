@@ -3,15 +3,7 @@ class ThriftAT0100 < Formula
     homepage "https://thrift.apache.org/"
     url "https://archive.apache.org/dist/thrift/0.10.0/thrift-0.10.0.tar.gz"
     sha256 "2289d02de6e8db04cbbabb921aeb62bfe3098c4c83f36eec6c31194301efa10b"
-  
-    bottle do
-      cellar :any
-      sha256 "20b9fd54b8aaf036d5c9c85f53ab084819f1b6bbb392bd266e4f7c7e2dbbc48b" => :high_sierra
-      sha256 "a0d93b6f61524775ec194daa25a3a8da16f5e858823822847074711c718f1618" => :sierra
-      sha256 "e82b69518d57411e51c78652c2af6bcede1404b3d99fce5087b9e5ceae96598e" => :el_capitan
-      sha256 "331177b6661cef631e930e14ef2ce2c8884c4fcbc662699498f39fc395b8da5a" => :yosemite
-    end
-  
+
     head do
       url "https://git-wip-us.apache.org/repos/asf/thrift.git"
   
