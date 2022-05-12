@@ -31,7 +31,7 @@ class ThriftAT0100 < Formula
   
       exclusions = ["--without-ruby", "--disable-tests", "--without-php_extension"]
   
-      exclusions << "--without-python" if build.without? "python"
+      exclusions << "--without-python" if build.without? "python@2"
       exclusions << "--without-haskell" if build.without? "haskell"
       exclusions << "--without-java" if build.without? "java"
       exclusions << "--without-perl" if build.without? "perl"
